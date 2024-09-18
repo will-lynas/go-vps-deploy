@@ -6,7 +6,8 @@ inputs:
   ssh-private-key:
     required: true
   branch-name:
-    required: true
+    required: false
+    default: "main"
 
 runs:
   using: "composite"
